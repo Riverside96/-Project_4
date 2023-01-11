@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="treesolve.DecrementMapValTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-11T19:24:59" hostname="RoryLiam" time="0.026">
+  <properties/>
+  <testcase name="testDecrementMapVal_nullValue" classname="treesolve.DecrementMapValTests" time="0.017"/>
+  <testcase name="testDecrementMapVal_newKey" classname="treesolve.DecrementMapValTests" time="0.001"/>
+  <testcase name="testDecrementMapVal_existingKey" classname="treesolve.DecrementMapValTests" time="0.002"/>
+  <testcase name="testDecrementMapVal_nullMap" classname="treesolve.DecrementMapValTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

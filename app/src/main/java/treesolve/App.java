@@ -190,6 +190,17 @@ public static int updatedDiff(int aSum, int bSum, int target){
   return (smallestDiff(aSum, bSum, target));
 }
 
+public static double[] saveResults(double[] result, int t1Sum, int t2Sum, int target, int iterations, double fitness){
+    result[0] = t1Sum;
+    result[1] = t2Sum;
+    result[2] = target;
+    result[3] = iterations;
+    result[4] = fitness;
+    return result;
+  }
+
+
+
 public static double[] hillClimbing(){
     Stack<Integer> bricks = getBricks();
     final int brickSum = bricks.stream().reduce(0, Integer::sum);
@@ -247,35 +258,11 @@ public static double[] hillClimbing(){
     }
 
 
-public static double[] saveResults(double[] result, int t1Sum, int t2Sum, int target, int iterations, double fitness){
-    result[0] = t1Sum;
-    result[1] = t2Sum;
-    result[2] = target;
-    result[3] = iterations;
-    result[4] = fitness;
-    return result;
-  }
-
 
 
 
 //================================================================================================//
     public static void main(String[] args) {
-
-    // Scanner in = new Scanner(System.in);
-    // System.out.println("How many piles of bricks do you want distributing?");
-    // int setSize=0;
-    // setSize = in.nextInt();
-
-    // System.out.println("And what range would you like?");
-    // int[] range = new int[2];
-    // System.out.println("From: ");
-    // range[0] = in.nextInt();
-    // System.out.println("To: ");
-    // range[1] = in.nextInt();
-
-    // in.close();
-
     TimerObj timer = new TimerObj();
 
     double[] results = new double[5];
@@ -285,12 +272,7 @@ public static double[] saveResults(double[] result, int t1Sum, int t2Sum, int ta
     System.out.println(fitnessFormatted);
     }
     timer.endTimer();
-    System.out.println("time:"+timer.getDurationAsMillis());
+    // System.out.println("time:"+timer.getDurationAsMillis());
 
-    System.out.println(results[0]);
-    System.out.println(results[1]);
-    System.out.println(results[2]);
-    System.out.println((int)results[3]);
-    // presentResults((int)results[0], (int)results[1], (int)results[2], (int)results[3], results[4]); 
   }  
 }

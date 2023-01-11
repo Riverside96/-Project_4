@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="treesolve.IncrementMapValTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-11T19:25:00" hostname="RoryLiam" time="0.028">
+  <properties/>
+  <testcase name="testIncrementMapVal_newKey" classname="treesolve.IncrementMapValTests" time="0.006"/>
+  <testcase name="testIncrementMapVal_nullValue" classname="treesolve.IncrementMapValTests" time="0.001"/>
+  <testcase name="testIncrementMapVal_existingKey" classname="treesolve.IncrementMapValTests" time="0.001"/>
+  <testcase name="testIncrementMapVal_nullMap" classname="treesolve.IncrementMapValTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

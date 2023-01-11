@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="treesolve.HillClimbTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-11T19:24:59" hostname="RoryLiam" time="0.244">
+  <properties/>
+  <testcase name="testHillClimbing_sums" classname="treesolve.HillClimbTests" time="0.169"/>
+  <testcase name="testHillClimbing_bestFitness" classname="treesolve.HillClimbTests" time="0.018"/>
+  <testcase name="testHillClimbing_iterations" classname="treesolve.HillClimbTests" time="0.026"/>
+  <testcase name="testHillClimbing_arrayLength" classname="treesolve.HillClimbTests" time="0.01"/>
+  <system-out><![CDATA[target: 278
+A sum =278
+B Sum = 278
+This sort took a total of 6 iterations
+Resulting in a differnce of  0.0000% difference from the target value
+target: 225
+A sum =232
+B Sum = 219
+This sort took a total of 2 iterations
+Resulting in a differnce of  2.6667% difference from the target value
+target: 219
+A sum =245
+B Sum = 193
+This sort took a total of 1 iterations
+Resulting in a differnce of  11.8721% difference from the target value
+target: 266
+A sum =266
+B Sum = 267
+This sort took a total of 9 iterations
+Resulting in a differnce of  0.0000% difference from the target value
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

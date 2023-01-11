@@ -1,0 +1,20 @@
+target: 278
+A sum =278
+B Sum = 278
+'This sort took a total of 6 iterations
+FResulting in a differnce of  0.0000% difference from the target value
+target: 225
+A sum =232
+B Sum = 219
+'This sort took a total of 2 iterations
+FResulting in a differnce of  2.6667% difference from the target value
+target: 219
+A sum =245
+B Sum = 193
+'This sort took a total of 1 iterations
+GResulting in a differnce of  11.8721% difference from the target value
+target: 266
+A sum =266
+B Sum = 267
+'This sort took a total of 9 iterations
+FResulting in a differnce of  0.0000% difference from the target value
